@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Session;
 
 class RegisterController extends Controller
 {
@@ -49,6 +50,11 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
+            'firstname' => ['required', 'string', 'max:255'],
+            'lastname' => ['required', 'string', 'max:255'],
+            'address' => ['required', 'string', 'max:255'],
+            'country' => ['required', 'string', 'max:255'],
+            'phone' => ['required', 'string', 'max:255'],
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
@@ -62,8 +68,14 @@ class RegisterController extends Controller
      * @return \App\User
      */
     protected function create(array $data)
-    {
+    {   
+        Session::flush();
         return User::create([
+            'firstname' => $data['firstname'],
+            'lastname' => $data['lastname'],
+            'address' => $data['address'],
+            'country' => $data['country'],
+            'phone' => $data['phone'],
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),

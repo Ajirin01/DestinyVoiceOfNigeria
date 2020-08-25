@@ -403,10 +403,10 @@
                             <h4 class="widget-title">Hot Navs</h4>
                             <!-- List -->
                             <ul class="list">
-                                <li><a href="#">Business</a></li>
-                                <li><a href="#">Markets</a></li>
-                                <li><a href="#">Tech</a></li>
-                                <li><a href="#">Luxury</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Know about Nigeria</a></li>
+                                <li><a href="#">Invest in Nigeria</a></li>
+                                <li><a href="#">Place your adverts</a></li>
                             </ul>
                         </div>
                     </div>
@@ -415,17 +415,17 @@
                     <div class="col-12 col-sm-4 col-lg-2">
                         <div class="footer-widget-area mt-80">
                             <!-- Title -->
-                            <h4 class="widget-title">Featured</h4>
+                            <h4 class="widget-title">Just For You</h4>
                             <!-- List -->
                             <ul class="list">
-                                <li><a href="#">Football</a></li>
-                                <li><a href="#">Golf</a></li>
-                                <li><a href="#">Tennis</a></li>
-                                <li><a href="#">Motorsport</a></li>
-                                <li><a href="#">Horseracing</a></li>
-                                <li><a href="#">Equestrian</a></li>
-                                <li><a href="#">Sailing</a></li>
-                                <li><a href="#">Skiing</a></li>
+                                <li><a href="#">Nutrition & Health</a></li>
+                                <li><a href="#">Beauty & fashion</a></li>
+                                <li><a href="#">Homes & Properties</a></li>
+                                <li><a href="#">Love & Relationships</a></li>
+                                <li><a href="#">Family & Parenting</a></li>
+                                <li><a href="#">Career Development</a></li>
+                                <li><a href="#">Business Development</a></li>
+                                <li><a href="#">"DNDP" Initatives</a></li>
                             </ul>
                         </div>
                     </div>
@@ -434,17 +434,17 @@
                     <div class="col-12 col-sm-4 col-lg-2">
                         <div class="footer-widget-area mt-80">
                             <!-- Title -->
-                            <h4 class="widget-title">FAQ</h4>
+                            <h4 class="widget-title">Contacts</h4>
                             <!-- List -->
                             <ul class="list">
-                                <li><a href="#">Aviation</a></li>
-                                <li><a href="#">Business</a></li>
-                                <li><a href="#">Traveller</a></li>
-                                <li><a href="#">Destinations</a></li>
-                                <li><a href="#">Features</a></li>
-                                <li><a href="#">Food/Drink</a></li>
+                                <li><a href="#">FaceBook</a></li>
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Linkedin</a></li>
+                                <li><a href="#">Google+</a></li>
+                                {{-- <li><a href="#">Food/Drink</a></li>
                                 <li><a href="#">Hotels</a></li>
-                                <li><a href="#">Partner Hotels</a></li>
+                                <li><a href="#">Partner Hotels</a></li> --}}
                             </ul>
                         </div>
                     </div>
@@ -456,12 +456,13 @@
                             <h4 class="widget-title">+More</h4>
                             <!-- List -->
                             <ul class="list">
-                                <li><a href="#">Fashion</a></li>
-                                <li><a href="#">Design</a></li>
-                                <li><a href="#">Architecture</a></li>
-                                <li><a href="#">Arts</a></li>
-                                <li><a href="#">Autos</a></li>
-                                <li><a href="#">Luxury</a></li>
+                                <li><a href="#">Discover Nigeria</a></li>
+                                <li><a href="#">Lifestyles</a></li>
+                                <li><a href="#"> Global Updates</a></li>
+                                <li><a href="#">Agriculture</a></li>
+                                <li><a href="#">Tourism</a></li>
+                                <li><a href="#">Entertainment</a></li>
+                                <li><a href="#">Sports</a></li>
                             </ul>
                         </div>
                     </div>

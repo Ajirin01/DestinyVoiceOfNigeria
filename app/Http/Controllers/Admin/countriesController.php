@@ -60,12 +60,11 @@ class countriesController extends Controller
                         }
                     }
                 }
-                
             }
             if($created){
-                return redirect()->back()->with('msg','country was successfully created!');
+                return redirect()->back()->with('msg','Country(s) was successfully created!');
             }else{
-                return redirect()->back()->with('msg','country could not be successfully created!');
+                return redirect()->back()->with('msg','Country(s) could not be successfully created!');
             }
         }
     }
@@ -82,31 +81,21 @@ class countriesController extends Controller
         $Country = new Country;
         $Country = Country::findOrFail($id);
         $rules = [
-            'course_title' => 'required|min:5|max:50',
-            'course_image' => 'required',
-            'course_description' => 'required|min:20|max:400'
+            'country_name' => 'required|min:5|max:50',
+            'country_code' => 'required|max:50',
         ];
         $validator = Validator::make($request->all(),$rules);
 
         if($validator->fails()){
             return redirect()->back()->with('errors',$validator->errors());
-        }else {
-            if($request->hasFile('course_image')){
-                $image = $request->file('course_image');
-                $image_extension = $image->getClientOriginalExtension();
-                $image_name = 'course_image'.rand(123456789,999999999).'.'.$image_extension;
-                $path = $request->file('course_image')->storeAs('public/uploads', $image_name );
-    
-                $course_title = $request->get('course_title');
-                $course_description = $request->get('course_description');
-                $course_image = $image_name;
-                $create_country= $Country->update(['course_title'=>$course_title,
-                 'course_description'=>$course_description,
-                 'course_image'=>$course_image]);
-    
-                if($create_course){
-                    return redirect()->back()->with('msg','country was successfully Updated!');
-                }
+        }else{
+            $country_name = $request->country_name;
+            $country_code = $request->country_code;
+            $create_country= $Country->update(['country_name'=>$country_name,
+            'country_code'=>$country_code]);
+
+            if($create_country){
+                return redirect()->back()->with('msg','Country was successfully Updated!');
             }else{
                 return redirect()->back()->with('error','ERROR! could not update country!');
             }
@@ -116,10 +105,10 @@ class countriesController extends Controller
     public function destroy($id)
     {
         $Country = new Country;
-        $country = Country::firstOrFail('id',$id);
+        $country = Country::where('id',$id)->first();
         $delete_country= $country->delete();
-        if($delete_course){
-            return redirect()->back()->with('msg','post was successfully deleted!');
+        if($delete_country){
+            return redirect()->back()->with('msg','Country was successfully deleted!');
         }else{
             return redirect()->back()->with('error','ERROR! could not delete country!');
         }

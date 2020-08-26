@@ -277,7 +277,7 @@
                                                     <div><a href="/articles/know-about-nigeria/1"> Nigerians at Home Achivers</a></div>
                                                     <div><a href="/articles/know-about-nigeria/1">Notable Profiles </a></div>
                                                     <div ><a href="/articles/know-about-nigeria/1">Industrial Development</a></div>
-                                                    <div><a style="padding: 5px 13px" href="/articles/know-about-nigeria/1">Eminent Disapora Profile </a></div>
+                                                    <div><a  href="/articles/know-about-nigeria/1">Eminent Disapora Profile </a></div>
                                                     <div><a href="/articles/know-about-nigeria/1"> Global Updates </a></div>
                                                     <div class=""><a href="/articles/know-about-nigeria/1">Disapora Updates </a></div>
                                                     <div><a href="/articles/know-about-nigeria/1"> Tribes & Culture </a></div>

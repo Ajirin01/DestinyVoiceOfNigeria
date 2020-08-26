@@ -489,7 +489,7 @@ textarea:focus {
     margin-top: 4%
   }
   .right-top-nav .nav div{
-    margin: 5px;
+    margin: 5px 2px;
   }
   .right-top-nav .nav div a{
     background-color:#5d1d57;

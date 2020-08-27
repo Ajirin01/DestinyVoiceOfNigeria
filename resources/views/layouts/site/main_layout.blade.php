@@ -117,8 +117,8 @@
                                             <ul class="single-mega cn-col-4">
                                                 <li><a href="/articles/know-about-nigeria">Lifestyles</a></li>
                                                 <li><a href="/articles/invest-in-nigeria">Nutrition & Health</a></li>
-                                                <li><a href="/articles/know-about-nigeria">Nigerians at Home Achivers</a></li>
-                                                <li><a href="/articles/invest-in-nigeria">Nigerians in Diaspora Achivers</a></li>
+                                                <li><a href="/articles/know-about-nigeria">Nigerians at Home Achievers</a></li>
+                                                <li><a href="/articles/invest-in-nigeria">Nigerians in Diaspora Achievers</a></li>
                                                 <li><a href="/articles/political-new">Notable Profiles</a></li>
                                                 <li><a href="/articles/beauty-and-health">Regional Updates</a></li>
                                                 <li><a href="/articles/business-enhancement">Disapora Updates</a></li>
@@ -273,8 +273,8 @@
                                             <div class="nav">
                                                     <div ><a href="/articles/know-about-nigeria/1">Destiny Nigeria Development Projects "DNDP initiatives</a></div>
                                                     <div ><a href="/articles/know-about-nigeria/1">Agriculture </a></div>
-                                                    <div><a href="/articles/know-about-nigeria/1"> Nigerians in Diaspora Achivers</a></div>
-                                                    <div><a href="/articles/know-about-nigeria/1"> Nigerians at Home Achivers</a></div>
+                                                    <div><a href="/articles/know-about-nigeria/1"> Nigerians in Diaspora Achievers</a></div>
+                                                    <div><a href="/articles/know-about-nigeria/1"> Nigerians at Home Achievers</a></div>
                                                     <div><a href="/articles/know-about-nigeria/1">Notable Profiles </a></div>
                                                     <div ><a href="/articles/know-about-nigeria/1">Industrial Development</a></div>
                                                     <div><a  href="/articles/know-about-nigeria/1">Eminent Disapora Profile </a></div>

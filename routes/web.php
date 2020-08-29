@@ -26,13 +26,16 @@ Route::prefix('admin')->group(function(){
         Route::resource('adverts',  'Admin\advertsController');
         Route::resource('users',    'Admin\usersController')->middleware('admin');
         Route::resource('country',    'Admin\countriesController');
-        // Route::resource('lectures', 'Admin\lecturesController')->middleware('admin');
         Route::resource('blog', 'Admin\blogController')->middleware('admin');
         Route::resource('profile', 'Admin\profileController')->middleware('admin');
 }); 
 
 Route::get('/home', function () {
     return redirect('/');
+})->name('home');
+
+Route::get('/about', function () {
+    return view('site.about',['title'=> 'ABOUT US']);
 })->name('home');
 
 Route::prefix('articles')->group(function () {

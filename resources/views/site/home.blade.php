@@ -3,67 +3,45 @@
 @section('upper-content')
 <div class="col-12 col-md-12">
     <div class="row">
+        <div class="col-12 col-lg-5">
+            <!-- Single Featured Post -->
+            <h1 class="text-center">
+                WELCOME
+            </h1>
+            <div>
+                <h5 style="line-height: 1.5">
+                    Welcome to Destiny Nigeria’s
+                    Voice Magazine, “the
+                    authentic global voice for
+                    Nigeria”.
+                </h5>
+                <h5 style="line-height: 1.5">
+                    We provide the foremost
+                    platform you can rely on to
+                    obtain valuable information
+                    about Nigeria as a nation, her
+                    people and her vast natural
+                    resources.
+                </h5>
+                <a href="/about"><h4 class="text-center" style="font-size:0.8rem">… Read more About Us …</h4></a>
+            </div>
+
+        </div>
         <div class="col-12 col-lg-7">
             <!-- Single Featured Post -->
             <div class="single-blog-post featured-post">
+                
                 <div class="post-thumb">
-                    <a href="#"><img src="{{asset('site/img/bg-img/16.jpg')}}" alt=""></a>
+                    <a href="#"><img src="{{asset('site/img/bg-img/Moj 1.jpg')}}" alt=""></a>
                 </div>
                 <div class="post-data">
-                    <a href="#" class="post-catagory">Finance</a>
-                    <a href="#" class="post-title">
-                        <h6>Financial news: A new company is born today at the stock market</h6>
-                    </a>
+                    <h4>There is Great Hope for Nigeria</h4>
                     <div class="post-meta">
-                        <p class="post-author">By <a href="#">Christinne Williams</a></p>
-                        <p class="post-excerp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placerat. Sed varius leo ac leo fermentum, eu cursus nunc maximus. Integer convallis nisi nibh, et ornare neque ullamcorper ac. Nam id congue lectus, a venenatis massa. Maecenas justo libero, vulputate vel nunc id, blandit feugiat sem. </p>
-                        <!-- Post Like & Post Comment -->
-                        <div class="d-flex align-items-center">
-                            <a href="#" class="post-like"><img src="{{asset('site/img/core-img/like.png')}}" alt=""> <span>392</span></a>
-                            <a href="#" class="post-comment"><img src="{{asset('site/img/core-img/chat.png')}}" alt=""> <span>10</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-12 col-lg-5">
-            <!-- Single Featured Post -->
-            <div class="single-blog-post featured-post-2">
-                <div class="post-thumb">
-                    <a href="#"><img src="{{asset('site/img/bg-img/17.jpg')}}" alt=""></a>
-                </div>
-                <div class="post-data">
-                    <a href="#" class="post-catagory">Finance</a>
-                    <div class="post-meta">
-                        <a href="#" class="post-title">
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placerat. Sed varius leo ac...</h6>
-                        </a>
-                        <!-- Post Like & Post Comment -->
-                        <div class="d-flex align-items-center">
-                            <a href="#" class="post-like"><img src="{{asset('site/img/core-img/like.png')}}" alt=""> <span>392</span></a>
-                            <a href="#" class="post-comment"><img src="{{asset('site/img/core-img/chat.png')}}" alt=""> <span>10</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Single Featured Post -->
-            <div class="single-blog-post featured-post-2">
-                <div class="post-thumb">
-                    <a href="#"><img src="{{asset('site/img/bg-img/18.jpg')}}" alt=""></a>
-                </div>
-                <div class="post-data">
-                    <a href="#" class="post-catagory">Finance</a>
-                    <div class="post-meta">
-                        <a href="#" class="post-title">
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placerat. Sed varius leo ac...</h6>
-                        </a>
-                        <!-- Post Like & Post Comment -->
-                        <div class="d-flex align-items-center">
-                            <a href="#" class="post-like"><img src="{{asset('site/img/core-img/like.png')}}" alt=""> <span>392</span></a>
-                            <a href="#" class="post-comment"><img src="{{asset('site/img/core-img/chat.png')}}" alt=""> <span>10</span></a>
-                        </div>
+                        <p class="post-author">
+                            <a class="text-danger" href="#">
+                                … Read Interview With Mrs Moji Okonkwo…
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -78,22 +56,48 @@
         <div class="row">
             <div class="col-12 col-lg-8">
                 <div class="section-heading">
-                    <h6 class="rect-box-headline">Popular News</h6>
+                    <h6 class="rect-box-headline">Popular Updates</h6>
                 </div>
 
                 <div class="row">
                     <!-- Single Post -->
                     <div class="col-12 col-md-6">
                         <div class="single-blog-post style-3">
+                            <h5 class="text-center">
+                                LOVE FROM DIASPORA …
+                            </h5>
+                            <br>
                             <div class="post-thumb">
-                                <a href="#"><img src="{{asset('site/img/bg-img/12.jpg')}}" alt=""></a>
+                                <a href="#"><img src="{{asset('site/img/bg-img/akeem usa.jpg')}}" alt=""></a>
                             </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Post -->
+                    <div class="col-12 col-md-6">
+                        <div class="single-blog-post style-3">
                             <div class="post-data">
-                                <a href="#" class="post-catagory">Finance</a>
-                                <a href="#" class="post-title">
-                                    <h6>Dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo ac...</h6>
-                                </a>
-                                <div class="post-meta d-flex align-items-center">
+                                <br><br>
+                                <h4>MEET AKEEM:</h4>
+                                <h6>“…. Nigerians have the brains…”</h6>
+                                <p class="text-left">
+                                    Due to high security nature of his job, Destiny Nigeria’s
+                                    Voice could not publish an exclusive interview with
+                                    another ardent lover of Nigeria, based in far away
+                                    United States of America.
+                                </p>
+                                <p class="text-left">
+                                    We however have the rare privilege of presenting a
+                                    summary of the story of the man who simply prefers to
+                                    be called: “Akeem”.
+                                </p>
+                                
+                                <p class="post-author">
+                                    <a class="text-danger" href="#">
+                                        … Read Akeem’s Story here…
+                                    </a>
+                                </p>
+                                <div class="align-items-center">
                                     <a href="#" class="post-like"><img src="{{asset('site/img/core-img/like.png')}}" alt=""> <span>392</span></a>
                                     <a href="#" class="post-comment"><img src="{{asset('site/img/core-img/chat.png')}}" alt=""> <span>10</span></a>
                                 </div>
@@ -105,17 +109,7 @@
                     <div class="col-12 col-md-6">
                         <div class="single-blog-post style-3">
                             <div class="post-thumb">
-                                <a href="#"><img src="{{asset('site/img/bg-img/13.jpg')}}" alt=""></a>
-                            </div>
-                            <div class="post-data">
-                                <a href="#" class="post-catagory">Finance</a>
-                                <a href="#" class="post-title">
-                                    <h6>Dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo ac...</h6>
-                                </a>
-                                <div class="post-meta d-flex align-items-center">
-                                    <a href="#" class="post-like"><img src="{{asset('site/img/core-img/like.png')}}" alt=""> <span>392</span></a>
-                                    <a href="#" class="post-comment"><img src="{{asset('site/img/core-img/chat.png')}}" alt=""> <span>10</span></a>
-                                </div>
+                                <a href="#"><img src="{{asset('site/img/bg-img/happy 60years.jpg')}}" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -123,33 +117,15 @@
                     <!-- Single Post -->
                     <div class="col-12 col-md-6">
                         <div class="single-blog-post style-3">
-                            <div class="post-thumb">
-                                <a href="#"><img src="{{asset('site/img/bg-img/14.jpg')}}" alt=""></a>
-                            </div>
                             <div class="post-data">
-                                <a href="#" class="post-catagory">Finance</a>
-                                <a href="#" class="post-title">
-                                    <h6>Dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo ac...</h6>
-                                </a>
-                                <div class="post-meta d-flex align-items-center">
-                                    <a href="#" class="post-like"><img src="{{asset('site/img/core-img/like.png')}}" alt=""> <span>392</span></a>
-                                    <a href="#" class="post-comment"><img src="{{asset('site/img/core-img/chat.png')}}" alt=""> <span>10</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Post -->
-                    <div class="col-12 col-md-6">
-                        <div class="single-blog-post style-3">
-                            <div class="post-thumb">
-                                <a href="#"><img src="{{asset('site/img/bg-img/15.jpg')}}" alt=""></a>
-                            </div>
-                            <div class="post-data">
-                                <a href="#" class="post-catagory">Finance</a>
-                                <a href="#" class="post-title">
-                                    <h6>Dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo ac...</h6>
-                                </a>
+                                <h4> HAPPY 6O YEARS OF INDEPENDENCE TO NIGERIA </h4>
+                                <h4> 1st October 1960 to 1st October 2020 </h4>
+                                <h6> EDITORIAL: Nigeria at 60; What Next?</h6>
+                                <p class="post-author">
+                                    <a class="text-danger" href="#">
+                                        .… Read Article here …
+                                    </a>
+                                </p>
                                 <div class="post-meta d-flex align-items-center">
                                     <a href="#" class="post-like"><img src="{{asset('site/img/core-img/like.png')}}" alt=""> <span>392</span></a>
                                     <a href="#" class="post-comment"><img src="{{asset('site/img/core-img/chat.png')}}" alt=""> <span>10</span></a>
@@ -165,7 +141,7 @@
                 </div>
                 <!-- Popular News Widget -->
                 <div class="popular-news-widget mb-30">
-                    <h3>4 Most Popular News</h3>
+                    <h3>4 Most Recent Updates</h3>
 
                     <!-- Single Popular Blog -->
                     <div class="single-popular-post">
@@ -216,246 +192,19 @@
 </div>
 
 <!-- ##### Video Post Area Start ##### -->
+{{-- <div class="video-post-area bg-img bg-overlay" style="background-image: url(img/bg-img/bg1.jpg); transform: scaleY(.5)"> --}}
 <div class="video-post-area bg-img bg-overlay" style="background-image: url(img/bg-img/bg1.jpg);">
     <div class="container">
         <div class="row justify-content-center">
             <!-- Single Video Post -->
             <div class="col-12 col-sm-6 col-md-4">
+                {{-- <div class="single-video-post" style="transform: scaleX(.7); transform: scaleY()"> --}}
                 <div class="single-video-post">
-                    <img src="{{asset('site/img/bg-img/video1.jpg')}}" alt="">
-                    <!-- Video Button -->
-                    <div class="videobtn">
-                        <a href="https://www.youtube.com/watch?v=5BQr-j3BBzU" class="videoPlayer"><i class="fa fa-play" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Single Video Post -->
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="single-video-post">
-                    <img src="{{asset('site/img/bg-img/video2.jpg')}}" alt="">
-                    <!-- Video Button -->
-                    <div class="videobtn">
-                        <a href="https://www.youtube.com/watch?v=5BQr-j3BBzU" class="videoPlayer"><i class="fa fa-play" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Single Video Post -->
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="single-video-post">
-                    <img src="{{asset('site/img/bg-img/video3.jpg')}}" alt="">
-                    <!-- Video Button -->
-                    <div class="videobtn">
-                        <a href="https://www.youtube.com/watch?v=5BQr-j3BBzU" class="videoPlayer"><i class="fa fa-play" aria-hidden="true"></i></a>
-                    </div>
+                    <img src="{{asset('site/img/bg-img/aunty shade advert.jpg')}}" alt="">
                 </div>
             </div>
         </div>
     </div>
 </div>
 <!-- ##### Video Post Area End ##### -->
-
-<!-- ##### Editorial Post Area Start ##### -->
-<div class="editors-pick-post-area section-padding-80-50">
-    <div class="container">
-        <div class="row">
-            <!-- Editors Pick -->
-            <div class="col-12 col-md-7 col-lg-9">
-                <div class="section-heading">
-                    <h6 class="rect-box-headline">Editor’s Pick</h6>
-                </div>
-
-                <div class="row">
-
-                    <!-- Single Post -->
-                    <div class="col-12 col-lg-4">
-                        <div class="single-blog-post">
-                            <div class="post-thumb">
-                                <a href="#"><img src="{{asset('site/img/bg-img/1.jpg')}}" alt=""></a>
-                            </div>
-                            <div class="post-data">
-                                <a href="#" class="post-title">
-                                    <h6>Orci varius natoque penatibus et magnis dis parturient montes.</h6>
-                                </a>
-                                <div class="post-meta">
-                                    <div class="post-date"><a href="#">February 11, 2018</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Post -->
-                    <div class="col-12 col-lg-4">
-                        <div class="single-blog-post">
-                            <div class="post-thumb">
-                                <a href="#"><img src="{{asset('site/img/bg-img/2.jpg')}}" alt=""></a>
-                            </div>
-                            <div class="post-data">
-                                <a href="#" class="post-title">
-                                    <h6>Orci varius natoque penatibus et magnis dis parturient montes.</h6>
-                                </a>
-                                <div class="post-meta">
-                                    <div class="post-date"><a href="#">February 11, 2018</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Post -->
-                    <div class="col-12 col-lg-4">
-                        <div class="single-blog-post">
-                            <div class="post-thumb">
-                                <a href="#"><img src="{{asset('site/img/bg-img/3.jpg')}}" alt=""></a>
-                            </div>
-                            <div class="post-data">
-                                <a href="#" class="post-title">
-                                    <h6>Orci varius natoque penatibus et magnis dis parturient montes.</h6>
-                                </a>
-                                <div class="post-meta">
-                                    <div class="post-date"><a href="#">February 11, 2018</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Post -->
-                    <div class="col-12 col-lg-4">
-                        <div class="single-blog-post">
-                            <div class="post-thumb">
-                                <a href="#"><img src="{{asset('site/img/bg-img/4.jpg')}}" alt=""></a>
-                            </div>
-                            <div class="post-data">
-                                <a href="#" class="post-title">
-                                    <h6>Orci varius natoque penatibus et magnis dis parturient montes.</h6>
-                                </a>
-                                <div class="post-meta">
-                                    <div class="post-date"><a href="#">February 11, 2018</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Post -->
-                    <div class="col-12 col-lg-4">
-                        <div class="single-blog-post">
-                            <div class="post-thumb">
-                                <a href="#"><img src="{{asset('site/img/bg-img/5.jpg')}}" alt=""></a>
-                            </div>
-                            <div class="post-data">
-                                <a href="#" class="post-title">
-                                    <h6>Orci varius natoque penatibus et magnis dis parturient montes.</h6>
-                                </a>
-                                <div class="post-meta">
-                                    <div class="post-date"><a href="#">February 11, 2018</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Post -->
-                    <div class="col-12 col-lg-4">
-                        <div class="single-blog-post">
-                            <div class="post-thumb">
-                                <a href="#"><img src="{{asset('site/img/bg-img/6.jpg')}}" alt=""></a>
-                            </div>
-                            <div class="post-data">
-                                <a href="#" class="post-title">
-                                    <h6>Orci varius natoque penatibus et magnis dis parturient montes.</h6>
-                                </a>
-                                <div class="post-meta">
-                                    <div class="post-date"><a href="#">February 11, 2018</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- World News -->
-            <div class="col-12 col-md-5 col-lg-3">
-                <div class="section-heading">
-                    <h6 class="rect-box-headline">World News</h6>
-                </div>
-
-                <!-- Single Post -->
-                <div class="single-blog-post style-2">
-                    <div class="post-thumb">
-                        <a href="#"><img src="{{asset('site/img/bg-img/7.jpg')}}" alt=""></a>
-                    </div>
-                    <div class="post-data">
-                        <a href="#" class="post-title">
-                            <h6>Orci varius natoque penatibus et magnis</h6>
-                        </a>
-                        <div class="post-meta">
-                            <div class="post-date"><a href="#">February 11, 2018</a></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Post -->
-                <div class="single-blog-post style-2">
-                    <div class="post-thumb">
-                        <a href="#"><img src="{{asset('site/img/bg-img/8.jpg')}}" alt=""></a>
-                    </div>
-                    <div class="post-data">
-                        <a href="#" class="post-title">
-                            <h6>Orci varius natoque penatibus et magnis</h6>
-                        </a>
-                        <div class="post-meta">
-                            <div class="post-date"><a href="#">February 11, 2018</a></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Post -->
-                <div class="single-blog-post style-2">
-                    <div class="post-thumb">
-                        <a href="#"><img src="{{asset('site/img/bg-img/9.jpg')}}" alt=""></a>
-                    </div>
-                    <div class="post-data">
-                        <a href="#" class="post-title">
-                            <h6>Orci varius natoque penatibus et magnis</h6>
-                        </a>
-                        <div class="post-meta">
-                            <div class="post-date"><a href="#">February 11, 2018</a></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Post -->
-                <div class="single-blog-post style-2">
-                    <div class="post-thumb">
-                        <a href="#"><img src="{{asset('site/img/bg-img/10.jpg')}}" alt=""></a>
-                    </div>
-                    <div class="post-data">
-                        <a href="#" class="post-title">
-                            <h6>Orci varius natoque penatibus et magnis</h6>
-                        </a>
-                        <div class="post-meta">
-                            <div class="post-date"><a href="#">February 11, 2018</a></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Post -->
-                <div class="single-blog-post style-2">
-                    <div class="post-thumb">
-                        <a href="#"><img src="{{asset('site/img/bg-img/11.jpg')}}" alt=""></a>
-                    </div>
-                    <div class="post-data">
-                        <a href="#" class="post-title">
-                            <h6>Orci varius natoque penatibus et magnis</h6>
-                        </a>
-                        <div class="post-meta">
-                            <div class="post-date"><a href="#">February 11, 2018</a></div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
-<!-- ##### Editorial Post Area End ##### -->
 @endsection

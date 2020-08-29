@@ -1,6 +1,19 @@
 @extends('layouts.site.main_layout')
 @section('upper-content')
-<h1>{{$title}}</h1>
+{{-- <h1>{{$title}}</h1> --}}
+<h3 class="text-center">MEET NIGERIAN ACHIEVERS AT HOME</h3>
+<p>
+    In line with our objective of elevating the image of Nigeria and Nigerians across the
+    globe, we bring you a series of rare interviews with ardent lovers of Nigeria.
+</p>
+<p>
+    For a starter, we present a much privileged Lady who cannot imagine living outside
+    Nigeria, even when blessed with such opportunities. She is a very simple, achieving
+    and still aspiring Nigerian Lady, who has great hopes for her mother land.
+</p>
+<p>
+    <h5>Meet Mrs. Mojisola Okonkwo ……</h5>
+</p>
 @endsection
 
 @section('lower-content')
@@ -10,19 +23,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-8">
+                    <br>
+                    <h3 class="text-center">“….There is Great Hope for Nigeria ….”</h3>
                     <div class="blog-posts-area">
 
-                        <div class="pager d-flex align-items-center justify-content-between">
+                        {{-- <div class="pager d-flex align-items-center justify-content-between">
                             <div class="prev">
                                 <a href="#" class="active"><i class="fa fa-angle-left"></i> previous</a>
                             </div>
                             <div class="next">
                                 <a href="#">Next <i class="fa fa-angle-right"></i></a>
                             </div>
-                        </div>
+                        </div> --}}
 
                         <div class="section-heading">
-                            <h6>Related</h6>
+                            <h6>Interview</h6>
                         </div>
 
                         <div class="row">
@@ -30,17 +45,7 @@
                             <div class="col-12 col-md-6">
                                 <div class="single-blog-post style-3 mb-80">
                                     <div class="post-thumb">
-                                        <a href="#"><img src="{{asset('site/img/bg-img/12.jpg')}}" alt=""></a>
-                                    </div>
-                                    <div class="post-data">
-                                        <a href="#" class="post-catagory">Finance</a>
-                                        <a href="#" class="post-title">
-                                            <h6>Dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo ac...</h6>
-                                        </a>
-                                        <div class="post-meta d-flex align-items-center">
-                                            <a href="#" class="post-like"><img src="{{asset('site/img/core-img/like.png')}}" alt=""> <span>392</span></a>
-                                            <a href="#" class="post-comment"><img src="{{asset('site/img/core-img/chat.png')}}" alt=""> <span>10</span></a>
-                                        </div>
+                                        <a href="#"><img src="{{asset('site/img/bg-img/Moj 4.jpg')}}" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -48,18 +53,34 @@
                             <!-- Single Post -->
                             <div class="col-12 col-md-6">
                                 <div class="single-blog-post style-3 mb-80">
-                                    <div class="post-thumb">
-                                        <a href="#"><img src="{{asset('site/img/bg-img/13.jpg')}}" alt=""></a>
-                                    </div>
                                     <div class="post-data">
-                                        <a href="#" class="post-catagory">Finance</a>
                                         <a href="#" class="post-title">
-                                            <h6>Dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo ac...</h6>
+                                            <h6>BACKGROUND INFORMATION:</h6>
                                         </a>
-                                        <div class="post-meta d-flex align-items-center">
-                                            <a href="#" class="post-like"><img src="{{asset('site/img/core-img/like.png')}}" alt=""> <span>392</span></a>
-                                            <a href="#" class="post-comment"><img src="{{asset('site/img/core-img/chat.png')}}" alt=""> <span>10</span></a>
-                                        </div>
+                                       <h6 class="text-left">May we know you?</h6>
+                                       <p class="text-left">
+                                        <strong>My names are:</strong> Mrs. Mojisola Elizabeth
+                                        Okonkwo. Nee Ajibola
+                                       </p>
+
+                                       <h6 class="text-left">Where were you born?</h6>
+                                       <p class="text-left">
+                                        I was born at Anuolu Hospital, Ede, formerly Oyo State, but now in Osun State
+                                       </p>
+
+                                       <h6 class="text-left">Was this also where you grew up?</h6>
+                                       <p class="text-left">
+                                        I grew up in Lagos and partly in Ile – Ife, Osun State, in my teenage years.
+                                       </p>
+
+                                       <h6 class="text-left">What was growing up like for you?</h6>
+                                       <p class="text-left">
+                                        My growing up was very tough. Moving to
+                                        Lagos was influenced by the death of my Dad in
+                                        1973. I was sent to stay with a relation, who
+                                        practically turned me into a house-girl (maid),
+                                        causing me to suffer much hardship.
+                                       </p>
                                     </div>
                                 </div>
                             </div>

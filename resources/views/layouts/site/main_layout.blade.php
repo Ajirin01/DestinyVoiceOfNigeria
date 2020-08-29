@@ -274,7 +274,7 @@
                                                     <div ><a href="/articles/know-about-nigeria/1">Destiny Nigeria Development Projects "DNDP initiatives</a></div>
                                                     <div ><a href="/articles/know-about-nigeria/1">Agriculture </a></div>
                                                     <div><a style="padding: 5px 7px" href="/articles/know-about-nigeria/1"> Nigerians in Diaspora Achievers</a></div>
-                                                    <div><a href="/articles/nigerians-at-home-achievers"> Nigerians at Home Achievers</a></div>
+                                                    <div><a href="{{URL::to('articles/nigerians-at-home-achievers')}}"> Nigerians at Home Achievers</a></div>
                                                     <div><a href="/articles/know-about-nigeria/1">Notable Profiles </a></div>
                                                     <div ><a href="/articles/know-about-nigeria/1">Industrial Development</a></div>
                                                     <div><a  href="/articles/know-about-nigeria/1">Eminent Disapora Profile </a></div>

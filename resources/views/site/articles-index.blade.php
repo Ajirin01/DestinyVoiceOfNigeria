@@ -80,7 +80,7 @@
                         <div class="single-blog-post featured-post mb-30">
                             <div >
                                 <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"></a>
-                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"><img src="{{asset('site/img/bg-img/Moj14.jpg')}}" alt=""></a>
+                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"><img src="{{asset('site/img/bg-img/aunty shade advert.jpg')}}" alt=""></a>
                             </div>
                             <div class="post-data">
                                 <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-title">

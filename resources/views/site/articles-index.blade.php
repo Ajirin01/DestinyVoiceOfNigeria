@@ -5,7 +5,7 @@
         <div class="col-12">
             <!-- Single Featured Post -->
             <div class="single-blog-post featured-post col-12">
-                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"><img src="{{asset('site/img/bg-img/Moj 14.jpg')}}" alt=""></a>
+                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"><img src="{{asset('site/img/bg-img/Moj 14.JPG')}}" alt=""></a>
                 <div class="post-data">
                     <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-title">
                         <h6>Meet Mrs. Mojisola Okonkwo ……</h6>
@@ -42,7 +42,7 @@
                         <div class="single-blog-post featured-post mb-30">
                             <div >
                                 <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"></a>
-                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"><img src="{{asset('site/img/bg-img/Moj 14.jpg')}}" alt=""></a>
+                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"><img src="{{asset('site/img/bg-img/Moj 14.JPG')}}" alt=""></a>
                             </div>
                             <div class="post-data">
                                 <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-title">
@@ -61,7 +61,7 @@
                         <div class="single-blog-post featured-post mb-30">
                             <div >
                                 <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"></a>
-                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"><img src="{{asset('site/img/bg-img/Moj 14.jpg')}}" alt=""></a>
+                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"><img src="{{asset('site/img/bg-img/Moj 14.JPG')}}" alt=""></a>
                             </div>
                             <div class="post-data">
                                 <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-title">
@@ -80,7 +80,7 @@
                         <div class="single-blog-post featured-post mb-30">
                             <div >
                                 <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"></a>
-                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"><img src="{{asset('site/img/bg-img/aunty shade advert.jpg')}}" alt=""></a>
+                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"><img src="{{asset('site/img/bg-img/Moj 14.JPG')}}" alt=""></a>
                             </div>
                             <div class="post-data">
                                 <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-title">
@@ -99,7 +99,7 @@
                         <div class="single-blog-post featured-post mb-30">
                             <div >
                                 <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"></a>
-                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"><img src="{{asset('site/img/bg-img/Moj 14.jpg')}}" alt=""></a>
+                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"><img src="{{asset('site/img/bg-img/Moj 14.JPG')}}" alt=""></a>
                             </div>
                             <div class="post-data">
                                 <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-title">

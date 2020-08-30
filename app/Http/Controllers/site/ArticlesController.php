@@ -43,8 +43,8 @@ class ArticlesController extends Controller
         if($type == "nigerians-at-home-achievers"){
             $data = getArticles("App\Country");
             return view('site.article-details',['data'=>$data, 'title'=> 'Know About Nigeria article 1', 'error'=>false, 'upper'=>false, 'lower'=>true]);
-        }elseif($type == "invest-in-nigeria"){
-            return view('site.article-details',['title'=> 'Invest in Nigeria article 1', 'error'=>false, 'upper'=>false, 'lower'=>true]);
+        }elseif($type == "nigerians-in-diaspora-achievers"){
+            return view('site.article-details-akeem',['title'=> 'Invest in Nigeria article 1', 'error'=>false, 'upper'=>true, 'lower'=>true]);
         }else{
             $error = "Ops! Article does not exist";
             return view('site.article-details',['title'=> $error, 'error'=>true, 'upper'=>false, 'lower'=>false]);

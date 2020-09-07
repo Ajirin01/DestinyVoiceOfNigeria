@@ -271,29 +271,30 @@
                                     <div class="row align-items-center">
                                         <div class="col-12 col-lg-12">
                                             <div class="nav">
-                                                    <div ><a href="/articles/know-about-nigeria/1">Destiny Nigeria Development Projects "DNDP initiatives</a></div>
-                                                    <div ><a href="/articles/know-about-nigeria/1">Agriculture </a></div>
-                                                    <div><a style="padding: 5px 7px" href="{{URL::to('articles/nigerians-in-diaspora-achievers/1')}}"> Nigerians in Diaspora Achievers</a></div>
                                                     <div><a href="{{URL::to('articles/nigerians-at-home-achievers')}}"> Nigerians at Home Achievers</a></div>
+                                                    <div><a  href="{{URL::to('articles/nigerians-in-diaspora-achievers/1')}}"> Nigerians in Diaspora Achievers</a></div>
                                                     <div><a href="/articles/know-about-nigeria/1">Notable Profiles </a></div>
-                                                    <div ><a href="/articles/know-about-nigeria/1">Industrial Development</a></div>
-                                                    <div><a  href="/articles/know-about-nigeria/1">Eminent Disapora Profile </a></div>
-                                                    <div><a href="/articles/know-about-nigeria/1"> Global Updates </a></div>
-                                                    <div class=""><a href="/articles/know-about-nigeria/1">Disapora Updates </a></div>
-                                                    <div><a href="/articles/know-about-nigeria/1"> Tribes & Culture </a></div>
-                                                    <div ><a style="padding: 5px 13px" href="/articles/know-about-nigeria/1">Promotions</a></div>
-                                                    <div><a style="padding: 5px 15px" href="/articles/know-about-nigeria/1">Made in Nigeria Products </a></div>
-                                                    <div ><a href="/articles/know-about-nigeria/1">Humanitarian </a></div>
-                                                    
-                                                    <div ><a href="/articles/know-about-nigeria/1">Mineral Resources</a></div>
-                                                    <div ><a href="/articles/know-about-nigeria/1">Business Supports</a></div>
                                                     <div><a href="/articles/know-about-nigeria/1"> Regional Updates </a></div>
-                                                    <div ><a style="padding: 5px 14px" href="/articles/know-about-nigeria/1">Exclusive Services </a></div>
-                                                    <div><a href="/articles/know-about-nigeria/1">Not-for-Profits</a></div>
+                                                    <div class=""><a href="/articles/know-about-nigeria/1">Disapora Updates </a></div>
+                                                    <div><a href="/articles/know-about-nigeria/1"> Global Updates </a></div>
+                                                    <div><a href="/articles/know-about-nigeria/1"> Tribes & Culture </a></div>
+                                                    <div ><a href="/articles/know-about-nigeria/1">Agriculture </a></div>
+                                                    <div ><a href="/articles/know-about-nigeria/1">Mineral Resources</a></div>
                                                     <div ><a href="/articles/know-about-nigeria/1">Tourism</a></div>
+                                                    <div ><a style="padding: 5px 19px" href="/articles/know-about-nigeria/1">Technology Tips</a></div>
+                                                    <div ><a style="padding: 5px 19px" href="/articles/know-about-nigeria/1">Business Supports</a></div>
+                                                    <div ><a style="padding: 5px 19px" href="/articles/know-about-nigeria/1">Industrial Development</a></div>
+                                                    <div><a style="padding: 5px 19px" href="/articles/know-about-nigeria/1">Made in Nigeria Products </a></div>
+                                                    <div ><a style="padding: 5px 21px" href="/articles/know-about-nigeria/1">Exclusive Services </a></div>
+                                                    <div ><a style="padding: 5px 21px" href="/articles/know-about-nigeria/1">Promotions</a></div>
+                                                    <div><a style="padding: 5px 21px"  href="/articles/know-about-nigeria/1">Invest in Nigeria </a></div>
+                                                    <div><a style="padding: 5px 20px"  href="/articles/know-about-nigeria/1">Not-for-Profits</a></div>
+                                                    <div ><a style="padding: 5px 20px"  href="/articles/know-about-nigeria/1">Humanitarian </a></div>
+                                                    <div ><a href="/articles/know-about-nigeria/1">Destiny Nigeria Development Projects "DNDP initiatives</a></div>
                                                     
                                                     
-                                                    <div><a href="/articles/know-about-nigeria/1">Invest in Nigeria </a></div>
+                                                    
+                                                    
                                                     
                                                     
                                                 

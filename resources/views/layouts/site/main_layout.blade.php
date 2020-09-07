@@ -289,7 +289,7 @@
                                                     <div ><a style="padding: 5px 21px" href="/articles/know-about-nigeria/1">Promotions</a></div>
                                                     <div><a style="padding: 5px 21px"  href="/articles/know-about-nigeria/1">Invest in Nigeria </a></div>
                                                     <div><a style="padding: 5px 20px"  href="/articles/know-about-nigeria/1">Not-for-Profits</a></div>
-                                                    <div ><a style="padding: 5px 28px"  href="/articles/know-about-nigeria/1">Humanitarian </a></div>
+                                                    <div ><a style="padding: 5px 18px"  href="/articles/know-about-nigeria/1">Humanitarian </a></div>
                                                     <div ><a href="/articles/know-about-nigeria/1">Destiny Nigeria Development Projects "DNDP initiatives</a></div>
                                                     
                                                     

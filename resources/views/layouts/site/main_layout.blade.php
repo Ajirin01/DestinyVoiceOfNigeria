@@ -284,12 +284,12 @@
                                                     <div ><a style="padding: 5px 19px" href="/articles/know-about-nigeria/1">Technology Tips</a></div>
                                                     <div ><a style="padding: 5px 19px" href="/articles/know-about-nigeria/1">Business Supports</a></div>
                                                     <div ><a style="padding: 5px 19px" href="/articles/know-about-nigeria/1">Industrial Development</a></div>
-                                                    <div><a style="padding: 5px 19px" href="/articles/know-about-nigeria/1">Made in Nigeria Products </a></div>
+                                                    <div><a style="padding: 5px 17px" href="/articles/know-about-nigeria/1">Made in Nigeria Products </a></div>
                                                     <div ><a style="padding: 5px 21px" href="/articles/know-about-nigeria/1">Exclusive Services </a></div>
                                                     <div ><a style="padding: 5px 21px" href="/articles/know-about-nigeria/1">Promotions</a></div>
                                                     <div><a style="padding: 5px 21px"  href="/articles/know-about-nigeria/1">Invest in Nigeria </a></div>
                                                     <div><a style="padding: 5px 20px"  href="/articles/know-about-nigeria/1">Not-for-Profits</a></div>
-                                                    <div ><a style="padding: 5px 20px"  href="/articles/know-about-nigeria/1">Humanitarian </a></div>
+                                                    <div ><a style="padding: 5px 28px"  href="/articles/know-about-nigeria/1">Humanitarian </a></div>
                                                     <div ><a href="/articles/know-about-nigeria/1">Destiny Nigeria Development Projects "DNDP initiatives</a></div>
                                                     
                                                     

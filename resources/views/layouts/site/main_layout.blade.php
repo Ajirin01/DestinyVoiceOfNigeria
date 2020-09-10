@@ -30,8 +30,19 @@
                     <div class="col-12">
                         <div class="top-header-content d-flex align-items-center justify-content-between">
                             <!-- Logo -->
-                            <div class="logo">
-                                <a style="transform: scale(.7); margin-left: -50px" href="index.html"><img src="{{asset('site/img/core-img/destiny-logo.png')}}" alt=""></a>
+                            <div class="logo" style="padding-top: 30px">
+                                <a style="transform: scale(.7); margin-left: -140px" href="index.html" style="width: 70%;">
+                                    <div style="width: 100%">
+                                            <img style="width: 100%" src="{{asset('site/img/core-img/destiny_logo2.png')}}">
+                                            <div style="font-family: Brush Script Std; color: #24e600;
+                                            position: relative;
+                                            top: -45px;
+                                            left: 27%;
+                                            font-size: 2rem;
+                                            font-weight: 100;
+                                            ">...... the authentic global voice for  <i  style="font-family: Monotype Corsiva; font-weight: 800; color: #24e600">N</i>igeria ......</div>
+                                    </div>
+                                </a>
                             </div>
 
                             <!-- Login Search Area -->
@@ -85,10 +96,19 @@
                 <div class="container">
                     <!-- Menu -->
                     <nav class="classy-navbar justify-content-between" id="newspaperNav">
-
-                        <!-- Logo -->
-                        <div class="logo">
-                            <a href="index.html"><img src="{{asset('site/img/core-img/destiny-logo.png')}}" alt=""></a>
+                        <div class="logo" style="width: 100%; padding-top: 20px; padding-left: 60px">
+                            <a href="index.html" style="width: 100%;">
+                                <div style="width: 100%">
+                                        <img style="transform: scale(1.8)" src="{{asset('site/img/core-img/destiny_logo2.png')}}">
+                                        <div style="font-family: Brush Script Std; color: #24e600;
+                                        position: relative; 
+                                        width: 150%;
+                                        top: -5px;
+                                        left: 4%;
+                                        font-size: .85rem;
+                                        ">...the authentic global voice for <i  style="font-family: Monotype Corsiva; font-weight: 800; color: #24e600">N</i>igeria...</div>
+                                </div>
+                            </a>
                         </div>
 
                         <!-- Navbar Toggler -->

@@ -84,10 +84,10 @@
                         
                         <li>
                         <li class="submenu">
-                            <a href="#"><i class="fa fa-commenting-o"></i> <span> Blog</span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="fa fa-commenting-o"></i> <span> Article</span> <span class="menu-arrow"></span></a>
                             <ul style="display: none;">
-                                <li><a href="{{ route('blog.index') }}">Posts</a></li>
-                                <li><a href="{{ route('blog.create') }}">Add Post</a></li>
+                                <li><a href="{{ route('article.index') }}">Articles</a></li>
+                                <li><a href="{{ route('article.create') }}">Add Article</a></li>
                             </ul>
                         </li>
                         <li>
@@ -116,6 +116,6 @@
     <script src="{{ asset('admin/assets/js/fullcalendar.min.js') }}"></script>
     <script src="{{ asset('admin/assets/js/jquery.fullcalendar.js') }}"></script>
     <script src="{{ asset('admin/assets/js/bootstrap-datetimepicker.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('admin/assets/js/tiny_mce_src.js') }}"></script>
-<script type="text/javascript" src="{{ asset('admin/assets/js/init-tinymce.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('admin/assets/js/tinymce.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('admin/assets/js/ini_tinymce.js') }}"></script>
 </body>

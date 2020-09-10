@@ -15,31 +15,31 @@
                     {{session('error')}}
                     @endif
                 </h4>
-                <h4 class="page-title">Edit Post</h4>
+                <h4 class="page-title">Edit Article</h4>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
-            <form action="{{ url('admin/blog/'.$post->id) }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ url('admin/blog/'.$article->id) }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     @method('PUT')
                     <div class="form-group">
-                        <label>Post Title</label>
-                        <input class="form-control" type="text" name="post_title" value="{{$post->blog_title}}">
+                        <label>Article Title</label>
+                        <input class="form-control" type="text" name="article_title" value="{{$article->blog_title}}">
                     </div>
                     <div class="form-group">
-                        <label>Post Image</label>
+                        <label>Article Image</label>
                         <div>
-                            <input class="form-control" type="file" name="post_image">
+                            <input class="form-control" type="file" name="article_image">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label>Post Description</label>
-                        <textarea cols="30" rows="15" class="form-control tinymce" name="post_description" >{{$post->blog_description}}</textarea>
+                        <label>Article Description</label>
+                        <textarea cols="30" rows="15" class="form-control tinymce" name="article_description" >{{$article->blog_description}}</textarea>
                     </div>
                     <div class="form-group">
                         <label>Tags <small>(separated with a comma)</small></label>
-                        <input type="text" placeholder="Enter your tags" data-role="tagsinput" class="form-control" name="post_tag" value="{{$post->blog_tag}}">
+                        <input type="text" placeholder="Enter your tags" data-role="tagsinput" class="form-control" name="article_tag" value="{{$article->blog_tag}}">
                     </div>
                     <div class="m-t-20 text-center">
                         <button class="btn btn-primary submit-btn">Save</button>

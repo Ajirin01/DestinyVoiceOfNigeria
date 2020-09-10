@@ -22,11 +22,12 @@ Auth::routes();
 
 Route::prefix('admin')->group(function(){
         Route::get('dashboard', 'Admin\dashboardController@dashboard');
-        Route::get('calender',  'Admin\calendarController@showCalender');
-        Route::resource('adverts',  'Admin\advertsController');
-        Route::resource('users',    'Admin\usersController')->middleware('admin');
-        Route::resource('country',    'Admin\countriesController');
+        Route::get('calender', 'Admin\calendarController@showCalender');
+        Route::resource('adverts', 'Admin\advertsController');
+        Route::resource('users', 'Admin\usersController')->middleware('admin');
+        Route::resource('country', 'Admin\countriesController');
         Route::resource('blog', 'Admin\blogController')->middleware('admin');
+        Route::resource('article', 'Admin\articleController');
         Route::resource('profile', 'Admin\profileController')->middleware('admin');
 }); 
 

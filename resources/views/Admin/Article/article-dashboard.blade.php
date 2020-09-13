@@ -15,32 +15,31 @@
                     {{session('error')}}
                     @endif
                 </h4>
-                <h4 class="page-title">Articles</h4>
+            <h4 class="page-title">Articles: {{$article_type}}</h4>
             </div>
             <div class="col-sm-4 col-8 text-right m-b-30">
-                <a class="btn btn-primary btn-rounded float-right" href="{{ route('blog.create') }}"><i class="fa fa-plus"></i> Add Article</a>
+                <a class="btn btn-primary btn-rounded float-right" href="{{ route('article.create') }}"><i class="fa fa-plus"></i> Add Article</a>
             </div>
         </div>
         <div class="row">
             @foreach ($articles as $article)
             <div class="col-sm-6 col-md-6 col-lg-4">
-                <div class="blog grid-blog">
-                    <div class="blog-image" style="height: 300px">
-                    <a href="{{ url('admin/blog/'.$article->id.'/edit') }}"><img class="img-fluid" src="/storage/uploads/{{$article->blog_image}}" alt=""></a>
+                <div class="article grid-article">
+                    <div class="article-image" style="height: 300px">
+                    <a href="{{ url('admin/article/'.$article->id.'/edit') }}"><img style="width:300xp; height: 300px" class="img-fluid" src="/storage/uploads/{{$article->article_intro_image}}" alt=""></a>
                     </div>
-                    <div class="blog-content">
-                        <h3 class="blog-title"><a href="{{ url('admin/blog/'.$article->id.'/edit') }}">{{$article->blog_title}}</a></h3>
-                    <p style="word-break: break-word"><?php echo substr($article->blog_description,0,50) ?>...</p>
-                        {{-- <a href="{{ url('admin/blog/1/edit') }}" class="read-more"><i class="fa fa-long-arrow-right"></i> Read More</a> --}}
-                        <div class="blog-info clearfix">
+                    <div class="article-content">
+                        <h3 class="article-title"><a href="{{ url('admin/article/'.$article->id.'/edit') }}">{{$article->article_title}}</a></h3>
+                    <p style="word-break: break-word"><?php echo substr($article->article_intro,0,50) ?>...</p>
+                        <div class="article-info clearfix">
                             <div class="article-left">
-                                <a class="dropdown-item" href="{{ url('admin/blog/'.$article->id.'/edit') }}"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                <a data-toggle="modal" class="dropdown-item" data-target="#delete_department" href="{{ url('admin/blog/'.$article->id.'/') }}"
+                                <a class="dropdown-item" href="{{ url('admin/article/'.$article->id.'/edit') }}"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                <a data-toggle="modal" class="dropdown-item" data-target="#delete_department" href="{{ url('admin/article/'.$article->id.'/') }}"
                                     onclick="event.preventDefault();"><i class="fa fa-trash-o m-r-5"></i>
                                     {{ __('delete') }}
                                 </a>
 
-                                <form id="delete-form" action="{{ url('admin/blog/'.$article->id.'/') }}" method="POST" style="display: none;">
+                                <form id="delete-form" action="{{ url('admin/article/'.$article->id.'/') }}" method="POST" style="display: none;">
                                     @csrf
                                     @method('DELETE')
                                 </form>

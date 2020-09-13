@@ -1,4 +1,4 @@
 tinymce.init({
 
-	selector: "textarea.tinymce" 
+	selector: "#intro"
 });

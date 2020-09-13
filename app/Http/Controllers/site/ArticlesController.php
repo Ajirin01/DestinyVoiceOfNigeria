@@ -5,32 +5,29 @@ namespace App\Http\Controllers\site;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Country as Country;
+use App\Article as Article;
 
 class ArticlesController extends Controller
 {
     
 
+    function getArticles($article_type){
+        $Articles = new Article;
+        $articles = $Articles::where('article_type',$article_type)->paginate(12);
+        return $articles;
+    }
     public function index($type){
-        function getArticles($model){
-            $model = $model;
-            $model_instance = new $model;
-            $articles = $model_instance::all();
-            return $articles;
-        }
-
         if($type == "lifestyles"){
-            // $data = getArticles("model name comes in here");
-            $data = getArticles("App\Country");
-            // $test = getArticles("App\Country");
-            // echo json_encode($test);
-            // exit;
-            return view('site.articles-index',['data'=>$data, 'title'=> 'Know About Nigeria', 'error'=>false, 'upper'=>false, 'lower'=>true]);
+            $title = "Lifestyles";
+            $articles = ArticlesController::getArticles($type);
+            return view('site.articles-index',['title'=> $title, 'articles'=> $articles, 'error'=> false, 'upper'=> false, 'lower'=> true]);
         }elseif($type == "nigerians-at-home-achievers"){
             $title = "MEET NIGERIAN ACHIEVERS AT HOME";
-            return view('site.articles-index',['title'=> $title, 'error'=>false, 'upper'=>true, 'lower'=>true]);
+            $articles = ArticlesController::getArticles($type);
+            return view('site.articles-index',['title'=> $title, 'articles'=> $articles, 'error'=> false, 'upper'=> true, 'lower'=> true]);
         }else{
             $error = "Ops! Article does not exist";
-            return view('site.articles-index',['title'=> $error, 'error'=>true, 'upper'=>false, 'lower'=>false]);
+            return view('site.articles-index',['title'=> $error, 'error'=> true, 'upper'=> false, 'lower'=> false]);
         }
         
     }

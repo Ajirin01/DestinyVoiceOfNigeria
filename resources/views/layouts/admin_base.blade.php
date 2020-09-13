@@ -25,7 +25,7 @@
         <div class="header">
 			<div class="header-left">
 				<a href="{{ url('admin/dashoard') }}" class="logo">
-					<img style="width: 170px; height: 40px" src="{{asset('site/img/core-img/destiny-logo.png')}}" width="35" height="35" alt="">
+					<img style="width: 220px; height: 40px" src="{{asset('site/img/core-img/destiny-logo.png')}}" width="35" height="35" alt="">
 				</a>
 			</div>
 			<a id="toggle_btn" href="javascript:void(0);"><i class="fa fa-bars"></i></a>
@@ -84,9 +84,30 @@
                         
                         <li>
                         <li class="submenu">
-                            <a href="#"><i class="fa fa-commenting-o"></i> <span> Article</span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="fa fa-commenting-o"></i> <span> Articles</span> <span class="menu-arrow"></span></a>
                             <ul style="display: none;">
-                                <li><a href="{{ route('article.index') }}">Articles</a></li>
+                                <li class="submenu">
+                                    <a href="#"><i class="fa fa-commenting-o"></i> <span> Articles List </span> <span class="menu-arrow"></span></a>
+                                    <ul style="display: none;">
+                                        <li onclick=" this.children[0].submit();">
+                                            <form id="article-type" action="{{ route('article.index') }}" method="GET">
+                                                <input type="hidden" name="article_type" value="nigerians-at-home-achievers">
+                                            </form>
+                                            <a href="nigerians-at-home-achievers" onclick=" event.preventDefault();">
+                                                Nigerians at Home Achievers
+                                            </a>
+                                        </li>
+                                        <li onclick=" this.children[0].submit();">
+                                            <form  action="{{ route('article.index') }}" method="GET">
+                                                <input type="hidden" name="article_type" value="test-error">
+                                            </form>
+                                            <a href="test-error" onclick=" event.preventDefault();">
+                                                Test error
+                                            </a>
+                                        </li>
+                                        <li><a href="{{ route('article.create') }}">Add Article</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="{{ route('article.create') }}">Add Article</a></li>
                             </ul>
                         </li>
@@ -117,5 +138,7 @@
     <script src="{{ asset('admin/assets/js/jquery.fullcalendar.js') }}"></script>
     <script src="{{ asset('admin/assets/js/bootstrap-datetimepicker.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('admin/assets/js/tinymce.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('admin/assets/js/ini_tinymce.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('admin/assets/js/ini_tinymce.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('admin/assets/js/tiny_mce_src.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('admin/assets/js/init-tinymce.js') }}"></script>
 </body>

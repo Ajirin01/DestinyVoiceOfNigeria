@@ -2,17 +2,6 @@
 
 use Illuminate\Http\Request;
 
-/*
-|--------------------------------------------------------------------------
-| API Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register API routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| is assigned the "api" middleware group. Enjoy building your API!
-|
-*/
-
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
@@ -37,7 +26,7 @@ Route::post('/upload-tinymce', function(Request $request){
             return;
         }
 
-        if(!in_array(strtolower(pathinfo($image_name, PATHINFO_EXTENSION)), array('gif', 'jpg', 'png'))){
+        if(!in_array(strtolower(pathinfo($image_name, PATHINFO_EXTENSION)), array('gif', 'jpg', 'png', 'jpeg'))){
             header("HTTP/1/1 400 Invalid extention");
             return;
         }

@@ -3,12 +3,11 @@
     <h3 class="text-center">{{$title}}</h3>
     @if ($upper)
         <div class="col-12">
-            <!-- Single Featured Post -->
             <div class="single-blog-post featured-post col-12">
-                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"><img src="{{asset('site/img/bg-img/Moj 14.JPG')}}" alt=""></a>
+                <a href="{{URL::to('articles/nigerians-at-home-achievers/'.$articles[0]->id)}}"><img style="width: 100%; height: 500px" src="/storage/uploads/{{$articles[0]->article_intro_image}}" alt=""></a>
                 <div class="post-data">
-                    <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-title">
-                        <h6>Meet Mrs. Mojisola Okonkwo ……</h6>
+                    <a href="{{URL::to('articles/nigerians-at-home-achievers/'.$articles[0]->id)}}" class="post-title">
+                        <h6>{{$articles[0]->article_title}}</h6> 
                     </a>
                     <div class="post-meta">
                         <div class="d-flex align-items-center">
@@ -39,80 +38,28 @@
                     <div class="blog-posts-area">
 
                         <!-- Single Featured Post -->
-                        <div class="single-blog-post featured-post mb-30">
-                            <div >
-                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"></a>
-                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"><img src="{{asset('site/img/bg-img/Moj 14.JPG')}}" alt=""></a>
-                            </div>
-                            <div class="post-data">
-                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-title">
-                                    <h6>Meet Mrs. Mojisola Okonkwo ……</h6>
-                                </a>
-                                <div class="post-meta">
-                                    <div class="d-flex align-items-center">
-                                        <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-like"><img src="{{asset('site/img/core-img/like.png')}}" alt=""> <span>392</span></a>
-                                        <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-comment"><img src="{{asset('site/img/core-img/chat.png')}}" alt=""> <span>10</span></a>
+                        @foreach ($articles as $key => $article)
+                            @if ($key > 0)
+                                <div class="single-blog-post featured-post mb-30">
+                                    <div >
+                                    <a href="{{URL::to('articles/nigerians-at-home-achievers/'.$article->id)}}"><img style=" width: 100%; height: 500px" src="/storage/uploads/{{$article->article_intro_image}}" alt=""></a>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Featured Post -->
-                        <div class="single-blog-post featured-post mb-30">
-                            <div >
-                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"></a>
-                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"><img src="{{asset('site/img/bg-img/Moj 14.JPG')}}" alt=""></a>
-                            </div>
-                            <div class="post-data">
-                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-title">
-                                    <h6>Meet Mrs. Mojisola Okonkwo ……</h6>
-                                </a>
-                                <div class="post-meta">
-                                    <div class="d-flex align-items-center">
-                                        <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-like"><img src="{{asset('site/img/core-img/like.png')}}" alt=""> <span>392</span></a>
-                                        <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-comment"><img src="{{asset('site/img/core-img/chat.png')}}" alt=""> <span>10</span></a>
+                                    <div class="post-data">
+                                        <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-title">
+                                            <h6>{{$article->article_title}}……</h6>
+                                        </a>
+                                        <div class="post-meta">
+                                            <div class="d-flex align-items-center">
+                                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-like"><img src="{{asset('site/img/core-img/like.png')}}" alt=""> <span>392</span></a>
+                                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-comment"><img src="{{asset('site/img/core-img/chat.png')}}" alt=""> <span>10</span></a>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Featured Post -->
-                        <div class="single-blog-post featured-post mb-30">
-                            <div >
-                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"></a>
-                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"><img src="{{asset('site/img/bg-img/Moj 14.JPG')}}" alt=""></a>
-                            </div>
-                            <div class="post-data">
-                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-title">
-                                    <h6>Meet Mrs. Mojisola Okonkwo ……</h6>
-                                </a>
-                                <div class="post-meta">
-                                    <div class="d-flex align-items-center">
-                                        <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-like"><img src="{{asset('site/img/core-img/like.png')}}" alt=""> <span>392</span></a>
-                                        <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-comment"><img src="{{asset('site/img/core-img/chat.png')}}" alt=""> <span>10</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Featured Post -->
-                        <div class="single-blog-post featured-post mb-30">
-                            <div >
-                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"></a>
-                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}"><img src="{{asset('site/img/bg-img/Moj 14.JPG')}}" alt=""></a>
-                            </div>
-                            <div class="post-data">
-                                <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-title">
-                                    <h6>Meet Mrs. Mojisola Okonkwo ……</h6>
-                                </a>
-                                <div class="post-meta">
-                                    <div class="d-flex align-items-center">
-                                        <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-like"><img src="{{asset('site/img/core-img/like.png')}}" alt=""> <span>392</span></a>
-                                        <a href="{{URL::to('articles/nigerians-at-home-achievers/1')}}" class="post-comment"><img src="{{asset('site/img/core-img/chat.png')}}" alt=""> <span>10</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                                </div> 
+                            @endif
+                           
+                        @endforeach
+                        
 
                     </div>
 

@@ -5,13 +5,13 @@ tinymce.init({
     toolbar2:'print preview media | forecolor backcolor fontselect',
     indent_use_margin: true,
     height: '400',
-    images_upload_url: '/api/upload-tinymce',
+    images_upload_url: 'http://transcript.mudospharmacy.com/api/upload-tinymce',
     images_upload_handler: function(blobInfo, success, failure){
         var xhr, formData;
 
         xhr = new XMLHttpRequest();
         xhr.withCredentials = false;
-        xhr.open('POST', '/api/upload-tinymce');
+        xhr.open('POST', 'http://transcript.mudospharmacy.com/api/upload-tinymce');
 
         xhr.onload = function(){
             var json;

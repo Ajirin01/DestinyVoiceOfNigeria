@@ -20,6 +20,10 @@ Route::post('/register-next', function(Request $request){
 
 Auth::routes();
 
+Route::get('/foo', function(){
+    Artisan::call('storage:link');
+});
+
 Route::post('/upload-tinymce', function(Request $request){
     $accepted_origin = array("http://localhost:8000", "http://transcript.mudospharmacy.com");
     

@@ -4,7 +4,7 @@
 <div class="page-wrapper">
     <div class="content">
         <div class="row">
-            <div class="col-lg-9  offset-lg-2">
+            <div class="col-lg-9  offset-lg-1">
                 <h4 class="page-title text-center text-success">
                     @if(session('msg'))
                     {{session('msg')}}
@@ -16,12 +16,12 @@
                     @endif
                 </h4>
             </div>
-            <div class="col-lg-9 offset-lg-2">
+            <div class="col-lg-9 offset-lg-1">
                 <h4 class="page-title">Add Article</h4>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-9 offset-lg-2">
+            <div class="col-lg-9 offset-lg-1">
             <form action="{{ route('article.store') }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="form-group">

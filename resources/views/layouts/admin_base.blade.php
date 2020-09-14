@@ -123,6 +123,13 @@
 
     <div class="sidebar-overlay" data-reff=""></div>
     </div>
+    <script>
+        var config = {
+            routes:{
+                tiny_url: "{{URL::to('/api/upload-tinymce')}}"
+            } 
+        }
+    </script>
     <script src="{{ asset('admin/assets/js/jquery-3.2.1.min.js') }}"></script>
 	<script src="{{ asset('admin/assets/js/popper.min.js') }}"></script>
     <script src="{{ asset('admin/assets/js/bootstrap.min.js') }}"></script>

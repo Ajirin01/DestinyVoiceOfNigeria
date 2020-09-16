@@ -26,7 +26,7 @@
             <div class="col-sm-6 col-md-6 col-lg-4">
                 <div class="article grid-article">
                     <div class="article-image" style="height: 300px">
-                    <a href="{{ url('admin/article/'.$article->id.'/edit') }}"><img style="width:300xp; height: 300px" class="img-fluid" src="/uploads/{{$article->article_intro_image}}" alt=""></a>
+                    <a href="{{ url('admin/article/'.$article->id.'/edit') }}"><img style="width:300xp; height: 300px" class="img-fluid" src="/storage/uploads/{{$article->article_intro_image}}" alt=""></a>
                     </div>
                     <div class="article-content">
                         <h3 class="article-title"><a href="{{ url('admin/article/'.$article->id.'/edit') }}">{{$article->article_title}}</a></h3>

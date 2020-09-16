@@ -32,7 +32,8 @@ Route::post('/upload-tinymce', function(Request $request){
             return;
         }
 
-        $filetowrite = $request->file('file')->storeAs('public/uploads', $image_name );
+        // $filetowrite = $request->file('file')->storeAs('public/uploads', $image_name );
+        $filetowrite = $request->file('file')->storeAs('/storage/uploads', $image_name );//this is for testing purpose
 
         $location = "/storage/uploads/".$image_name;
         echo json_encode(array('location' => $location));

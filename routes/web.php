@@ -22,7 +22,7 @@ Auth::routes();
 
 Route::get('/foo', function(){
     // Artisan::call('storage:link');
-    File::link(storage_path('app/public'), public_path('storage'))
+    File::link(storage_path('app/public'), public_path('storage'));
 });
 
 Route::post('/upload-tinymce', function(Request $request){

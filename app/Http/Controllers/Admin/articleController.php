@@ -77,7 +77,9 @@ class articleController extends Controller
                 $image_name = 'article_intro_image'.rand(123456789,999999999).'.'.$image_extension;
                 // $upload_path = public_path('uploads/');
                 // $path = $request->file('article_intro_image')->storeAs('public/uploads', $image_name );
-                $path = $request->file('article_intro_image')->storeAs('/storage/uploads', $image_name );//for testing
+                $upload_path = public_path('uploads/');
+                $image->move($upload_path, $image_name);
+                // $path = $request->file('article_intro_image')->storeAs($public_path, $image_name );//for testing
 
                 $article_type = $request->get('article_type');
                 $article_title = $request->get('article_title');

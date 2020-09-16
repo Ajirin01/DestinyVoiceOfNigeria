@@ -32,13 +32,9 @@ Route::post('/upload-tinymce', function(Request $request){
             return;
         }
 
-        // $filetowrite = $request->file('file')->storeAs('public/uploads', $image_name );
-        $upload_path = public_path('uploads/');
-        // $public_path = 'public/uploads';
-        $image->move($upload_path, $image_name);
-        // $filetowrite = $request->file('file')->storeAs($public_path, $image_name );//this is for testing purpose
-        
-        $location = "/uploads/".$image_name;
+        $filetowrite = $request->file('file')->storeAs('public/uploads', $image_name );
+
+        $location = "/storage/uploads/".$image_name;
         echo json_encode(array('location' => $location));
     }else{
         header("HTTP/1.1 500 server Error");
